@@ -29,8 +29,8 @@ development:
   database: firstrails
   host: localhost
   # pool: 5
-  username: <%=ENV.fetch("POSTGRES_USERNAME")%>
-  password: <%=ENV.fetch("POSTGRES_PASSWORD")%>
+  username: stamenova
+  password: stamenova123
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
@@ -88,5 +88,5 @@ test:
 production:
   <<: *default
   database: firstrails
-  username: <%=ENV.fetch("POSTGRES_USERNAME")%>
-  password: <%= ENV['FIRSTRAILS_DATABASE_PASSWORD'] %>
+  username: stamenova
+  password: stamenova123
